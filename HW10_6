@@ -1,0 +1,11 @@
+let mas = [1, 1, 1, 2, 1, 1];
+bool = true;
+
+for (let i = 0; i < mas.length;i++)
+  {
+    if (mas[0] !== mas[i]){
+      bool=false;
+    }
+  }
+
+console.log(bool);

@@ -1,0 +1,7 @@
+function Random(min, max) {
+  let rand = min + Math.random() * (max - min);
+  return Math.round(rand);
+}
+
+x = Random(1,100);
+console.log(x);
